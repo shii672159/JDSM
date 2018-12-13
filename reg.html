@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=gbk">
+            <title>个人注册</title>
+            <link type="text/css" rel="stylesheet" href="css/6b3cfd0d366c4402b28c0f3bb17df6c7.css">
+    <link type="text/css" rel="stylesheet" href="css/tinyscrollbar-170524.css">
+    <script type="text/javascript">window.pageConfig = { compatible: true };</script>
+    <script type="text/javascript" src="js/b35cd20870024cb7a4a74f0f263b4705.js"></script>
+    <script>
+        seajs.off('load');
+        seajs.off('fetch');
+        seajs.config({ alias: { e2: '//verify.jd.com/static/gridcaptcha/dist/js/lib/e2.js' } });
+    </script>
+    <link source="widget" type="text/css" rel="stylesheet" href="css/f1b0ea586ae64bcc9cd05737e5a9f7f8.css">
+                <script type="text/javascript" src="js/shape.js"></script>
+    
+            <script src="js/jdslide.1.0.min.js"></script>
+    
+    </head>
+<body >
+        <!-- widget header begin -->
+    <div class="header">
+        <div class="logo-con w clearfix">
+            <a href="https://www.jd.com" class="logo">
+            </a>
+            <div class="logo-title"> 欢迎注册</div>
+
+            <div class="have-account">已有账号？ <a href="login.html">请登录>&gt;</a></div>
+
+        </div>
+    </div>
+    <!-- widget header end -->
+    <div class="container w">
+        <div style="margin:150px auto;text-align: center">
+            <p>用户名：<input type="text"></p>
+            <p>密码：<input type="password"><span></span></p>
+            <p>邮箱：<input type="email"></p>
+            <p>性别：<input type="text"></p>
+            <p><input type="text" id="code_input" value="" placeholder="请输入验证码"/><div id="v_container" style="display: inline-block; width: 200px;height: 50px;"></div></p>
+            <p><button id="my_button">注册</button></p>
+        </div>
+    </div>
+    <div id="privacyProtocolNew" style="display:none;" >
+                <div class="protocol-con">
+  
+    <div id="protocolContactHash"></div>
+    <div id="protocolCancelTips"></div>
+
+</div>    </div>
+    <!-- widget reg-steps end -->
+</div>
+    <!-- widget footer begin -->
+<div id="form-footer" class="footer w">
+            <div class="links">
+            <a rel="nofollow" target="_blank" href="//www.jd.com/intro/about.aspx"> 关于我们</a>|
+            <a rel="nofollow" target="_blank" href="//www.jd.com/contact/">联系我们</a>|
+            <a rel="nofollow" target="_blank" href="//zhaopin.jd.com/">人才招聘</a>|
+            <a rel="nofollow" target="_blank" href="//www.jd.com/contact/joinin.aspx">商家入驻</a>|
+            <a rel="no  follow" target="_blank" href="//www.jd.com/intro/service.aspx">广告服务</a>|
+            <a rel="nofollow" target="_blank" href="//app.jd.com/">手机京东</a>|
+            <a target="_blank" href="//club.jd.com/links.aspx">友情链接</a>|
+            <a target="_blank" href="//media.jd.com">销售联盟</a>|
+            <a href="//club.jd.com/" target="_blank">京东社区</a>|
+            <a href="//gongyi.jd.com" target="_blank">京东公益</a>|
+            <a target="_blank" href="//en.jd.com/" clstag="pageclick|keycount|20150112ABD|9">English Site</a>
+        </div>
+        <div class="copyright">
+            Copyright©2004-2018  京东JD.com 版权所有
+        </div>
+    </div>
+<!-- widget footer end -->
+
+        <script type="text/javascript" src="js/jseqf.js"></script>
+    <script src="js/json2.js"></script>
+    <script type="text/javascript" src="js/jquery-1.11.1.js"></script>
+<script type="text/javascript" src="js/seajs-text.js"></script>
+<script type="text/javascript" src="js/underscore-min.js"></script>
+<script type="text/javascript">
+//    seajs.use('//misc.360buyimg.com/user/reg/3.0.0/js/register-personal', function (reg) {
+    seajs.use('//misc.360buyimg.com/user/reg/3.0.0/js/personal/register-181204', function (reg) {
+        reg.init();
+    });
+</script>
+<script type="text/javascript" src="js/common.js" source="widget"></script>
+<script src="js/td.js"></script>
+<script type="text/javascript">
+    $(function () {
+        getJdEid(function (eid, fpid) {
+            $("#eid").val(eid);
+            $("#sessionId").val(fpid);
+        });
+    });
+</script>
+<script type="text/javascript">
+    (function () {
+        var ja = document.createElement('script');
+        ja.type = 'text/javascript';
+        ja.async = true;
+        ja.src = document.location.protocol+'//wl.jd.com/wl.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ja, s);
+    })();
+</script>
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/gVerify.js"></script>
+<script src="js/reg.min.js"></script>
+</body>
+</html>
+
+
